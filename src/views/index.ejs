@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Scraper - Actividad 2.6</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h1>Exploración de JavaScript en Backend</h1>
+    <p>Última búsqueda: <%= lastSearch %></p>
+    
+    <form action="/scrape" method="POST">
+        <input type="text" name="url" placeholder="Ingresa la URL a procesar" required>
+        <button type="submit">Extraer Datos</button>
+    </form>
+</body>
+</html>
